@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="board">
+    <div class="titels">
+        <h1 class="boardtekst">HOME</h1>
+        <h1 id="brdg" class="boardtekst">GUEST</h1>
+    </div>
+    <div class="background-board">
+        <div class="blck">
+            <h2 id="count-el-home">0</h2>
+        </div>
+        <section><h1>VS</h1></section>
+        <div class="blck">
+            <h2 id="count-el-guest">0</h2>
+        </div>
+    </div>
+    <div class="increment-btns">
+        <div class="increment">
+            <script src="java.js"></script>
+            <button class="custom" id="increment-home" onclick="incrementHome()">+1</button>
+            <button class="custom" id="increment2-home" onclick="increment2Home()">+2</button>
+            <button class="custom" id="increment3-home" onclick="increment3Home()">+3</button>
+        </div>
+        <div class="increment">
+            <button class="custom" id="increment-guest" onclick="incrementGuest()">+1</button>
+            <button class="custom" id="increment2-guest" onclick="increment2Guest()">+2</button>
+            <button class="custom" id="increment3-guest" onclick="increment3Guest()">+3</button>
+        </div>
+    </div>
+    <section class="resetbtn">
+        <div class="new-rounds">
+            <button class="delete-btn" id="reset-el-home" onclick="resetHome()">New Game</button>
+            <button class="delete-btn" id="reset-el-guest" onclick="resetGuest()">New Game</button>
+        </div>
+    </section>
+</main>
+</body>
+</html>

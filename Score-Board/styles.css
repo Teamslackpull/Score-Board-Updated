@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+
+body{
+    background-color: black;
+    padding-top: 50px;
+    color: #feffff;
+    font-family: Verdana;
+
+}
+
+.board{
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 1100px;
+    border: 7px dotted white;
+    padding-top: 40px;
+    background-color:#1B244A ;
+
+}
+
+.titels{
+    margin-left: 20px;
+    height: 170px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+section{
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.background-board{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 250px;
+}
+
+@font-face {
+    font-family: Cursed ;
+    src: url("CursedTimerULiL.ttf");
+}
+
+.blck{
+    color: red;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 205px;
+    width: 240px;
+}
+
+h2{
+    text-align: center;
+    font-family: Cursed;
+    font-size: 90px;
+}
+
+.increment-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.new-rounds{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.delete-btn{
+    padding: 10px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-size: 20px;
+    border: 2px solid #9AABD8;
+    border-radius: 10px;
+}
+.custom{
+    padding: 15px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 3px solid #9AABD8;
+    border-radius: 5px;
+    font-family: Cursed;
+    font-size: 18px;
+}
+
+#increment-home{
+margin-right: 3px;
+}
+#increment-home:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+}
+
+#increment2-home{
+    margin-right: 3px;
+}
+#increment2-home:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+}
+#increment3-home:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+
+}
+
+#increment-guest{
+    margin-right: 1px;
+}
+#increment-guest:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+}
+
+#increment2-guest{
+    display: inline-block;
+    margin-right: 3-00px;
+
+}
+
+#increment2-guest:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+}
+
+#increment3-guest:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+}
+
+#reset-el-guest:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+}
+#reset-el-home:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+    transition-duration: 0.7s;
+}
